@@ -12,8 +12,7 @@
 """
 
 def evenfibonacci(n):
-    a = 1
-    b = 1
+    a, b = 1, 1
     sum = 0
     for i in range(1,n):
         a, b = b + a , a
